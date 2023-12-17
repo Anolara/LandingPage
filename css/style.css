@@ -85,3 +85,41 @@ div{
     font-weight: bold;
     width: 90px;
 }
+
+#middle_part_container{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    height: 350px;
+}
+
+#title_middle_part{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+
+#four_divs_container ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.solo_lista_div{
+    border: solid #3882F6 4px;
+    width: 150px;
+    height: 150px;
+    margin-right: 40px;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+.texto_div{
+    border: 0px;
+    width: 150px;
+    margin-top: 5px;
+}
