@@ -1,0 +1,46 @@
+body{
+    background-color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    border: solid red 2px;
+}
+
+#topo{
+    background-color:#1F2937;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#header_logo_txt{
+    color: white;
+    font-size: 24px;
+
+}
+
+#header_links_div{
+    color: #E5E7EB;
+    margin-right: 200px;
+}
+
+#header_links_div ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#header_links_div li{
+    margin-right: 50px;
+}
+
+#header_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo_div{
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+}
