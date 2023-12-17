@@ -8,10 +8,12 @@ div{
 }
 
 #topo{
+
     background-color:#1F2937;
     height: 500px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: -6px;
 }
 
 #header_logo_txt{
@@ -162,4 +164,55 @@ div{
     margin-right: 100px;
     background-color: white;
     height: 350px;
+}
+
+#botton_blue_div{
+    background-color: #3882F6;
+    width: 950px;
+    height: 150px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#botton_part_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#call_toarms{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: -10px;
+}
+
+#button_signin2{
+    border: solid white 2px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: bold;
+    width: 90px;
+}
+
+#footer{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #1F2937;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+#footer p{
+    margin-top: 15px;
+    padding: 0;
 }
